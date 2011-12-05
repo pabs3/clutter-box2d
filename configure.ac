@@ -97,7 +97,7 @@ AC_CHECK_FUNCS([memset munmap strcasecmp strdup])
 
 dnl ========================================================================
 
-pkg_modules="clutter-1.0 >= 1.0.0"
+pkg_modules="clutter-1.0 >= 1.0.0 box2d"
 PKG_CHECK_MODULES(DEPS, [$pkg_modules])
 
 AS_COMPILER_FLAGS([MAINTAINER_CFLAGS], ["-Wall"])
@@ -118,7 +118,6 @@ AC_CONFIG_FILES([
     build/autotools/Makefile
     clutter-box2d.pc
     examples/Makefile
-    box2d/Makefile
     clutter-box2d/Makefile
     doc/Makefile
     doc/reference/Makefile

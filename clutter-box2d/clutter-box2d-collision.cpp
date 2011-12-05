@@ -8,7 +8,7 @@
  * Original code authored by James Ketrenos <jketreno@linux.intel.com>
  *
  */
-#include "Box2D.h"
+#include <Box2D.h>
 #include <clutter/clutter.h>
 #include "clutter-box2d.h"
 #include "math.h"

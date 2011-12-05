@@ -7,7 +7,7 @@
  * Initial author James Ketrenos <jketreno@linux.intel.com>
  *
  */
-#include "Box2D.h"         /* b2ContactListener, b2ContactResult */
+#include <Box2D.h>         /* b2ContactListener, b2ContactResult */
 #include "clutter-box2d.h" /* ClutterBox2D */
 #include "clutter-box2d-contact.h"
 #include "clutter-box2d-private.h"

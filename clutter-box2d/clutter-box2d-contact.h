@@ -10,7 +10,7 @@
 #ifndef __clutter_box2ed_contact_h__
 #define __clutter_box2ed_contact_h__
 
-#include "Box2D.h"         /* b2ContactListener, b2ContactResult */
+#include <Box2D.h>         /* b2ContactListener, b2ContactResult */
 #include "clutter-box2d.h" /* ClutterBox2D */
 
 class __ClutterBox2DContactListener : public b2ContactListener

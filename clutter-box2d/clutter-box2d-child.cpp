@@ -13,7 +13,7 @@
 
 #define SYNCLOG(argv...)    if (0) g_print (argv)
 
-#include "Box2D.h"
+#include <Box2D.h>
 #include <clutter/clutter.h>
 #include "clutter-box2d-child.h"
 #include "clutter-box2d-private.h"

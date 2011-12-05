@@ -13,7 +13,7 @@
 #include <glib.h>
 #include <clutter/clutter.h>
 #include <clutter-box2d/clutter-box2d.h>
-#include "Box2D.h"
+#include <Box2D.h>
 
 G_BEGIN_DECLS
 

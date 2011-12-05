@@ -1,4 +1,4 @@
-INCLUDES = -I$(top_srcdir)/box2d -I$(top_srcdir)/box2d/Box2D -I$(srcdir) -I$(top_srcdir)
+INCLUDES = -I$(srcdir) -I$(top_srcdir)
 
 AM_CFLAGS = @MAINTAINER_CFLAGS@
 
@@ -10,7 +10,7 @@ MARSHALFILES = clutter-box2d-marshal.c clutter-box2d-marshal.h
 
 BUILT_SOURCES = $(MARSHALFILES)
 
-libclutter_box2d_@CLUTTER_BOX2D_API_VERSION@_la_LIBADD  = @DEPS_LIBS@ $(top_builddir)/box2d/libbox2d.la
+libclutter_box2d_@CLUTTER_BOX2D_API_VERSION@_la_LIBADD  = @DEPS_LIBS@
 libclutter_box2d_@CLUTTER_BOX2D_API_VERSION@_la_LDFLAGS =	\
 	@CLUTTER_BOX2D_LT_LDFLAGS@				\
 	-export-symbols-regex "^clutter.*"			\
